@@ -20,12 +20,6 @@ public class Bird implements Animal {
 		super();
 	}
 	
-	public Bird(String sayWords, List<String> songs) {
-		super();
-		this.sayWords = sayWords;
-		this.songs = songs;
-	}
-
 	public String getSayWords() {
 		return sayWords;
 	}
@@ -33,20 +27,12 @@ public class Bird implements Animal {
 	public void setSayWords(String sayWords) {
 		this.sayWords = sayWords;
 	}
-	
-	public List<String> getSongs() {
-		return songs;
-	}
 
-	public void setSongs(List<String> songs) {
+	public Bird(String sayWords, List<String> songs) {
+		super();
+		this.sayWords = sayWords;
 		this.songs = songs;
 	}
-
-	public Bird(String action) {
-		super();
-		this.action = action;
-	}
-
 	@Override
 	public void move() {
 		System.out.println(action);
