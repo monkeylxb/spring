@@ -9,6 +9,12 @@ public interface Animal {
 	 * 动物的移动
 	 */
 	void move();
+	/**
+	 * 动物说话
+	 */
 	void say();
+	/**
+	 * 唱歌
+	 */
 	void sing();
 }

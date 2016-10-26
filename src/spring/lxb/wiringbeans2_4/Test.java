@@ -1,6 +1,5 @@
 package spring.lxb.wiringbeans2_4;
 
-import org.junit.Ignore;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
@@ -14,17 +13,6 @@ public class Test {
 	
 	public Test() {
 		super();
-	}
-
-	@org.junit.Test
-	@Ignore
-	public void test1(){
-		animal.move();
-	}
-	@org.junit.Test
-	@Ignore
-	public void test2(){
-		animal.say();
 	}
 	@org.junit.Test
 	public void test3(){
