@@ -21,5 +21,8 @@
 	<util:list id="songsList">
 	<value>得不到的永远在骚动</value>
 	<value>被偏爱的都有恃无恐</value>
+<!-- 	SpEL表达式 -->
+	<value>#{T(System).currentTimeMillis()}</value>
+	<value>#{systemProperties['os.name']}</value>
 	</util:list>
 </beans>

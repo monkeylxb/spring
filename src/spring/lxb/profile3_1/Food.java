@@ -1,6 +1,5 @@
-package spring.lxb.profile3_2;
+package spring.lxb.profile3_1;
 
 public interface Food {
-  
 	void say();
 }
