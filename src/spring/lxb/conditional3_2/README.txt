@@ -1,0 +1,1 @@
+利用@conditional注解，解决条件化装配bean
